@@ -1,5 +1,4 @@
-# Mediator &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://www.google.com) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://www.google.com)
-
+# Mediator &middot; [![Build status](https://carvanadev.visualstudio.com/Carvana.OpenSource/_apis/build/status/Carvana.Mediator)](https://carvanadev.visualstudio.com/Carvana.OpenSource/_build/latest?definitionId=5003) [![NuGet Package](https://img.shields.io/nuget/vpre/carvana.mediator.svg)](https://www.nuget.org/packages/Carvana.Mediator/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://help.github.com/articles/creating-a-pull-request/) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) 
 Carvana Mediator is a minimalist .NET Standard implementation of type-based in-memory messaging dispatch. 
 
 ## Features
