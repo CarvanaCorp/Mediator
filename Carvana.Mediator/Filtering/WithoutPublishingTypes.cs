@@ -4,12 +4,12 @@ using System.Threading.Tasks;
 
 namespace Carvana.Mediator
 {
-    public class WithoutPublishingTypes : IEventHandler
+    public sealed class WithoutPublishingTypes : IEventHandler
     {
         private readonly HashSet<Type> _excludedTypes;
-        private readonly InMemoryEvents _inner;
+        private readonly IEventHandler _inner;
 
-        public WithoutPublishingTypes(IEnumerable<Type> excludedTypes, InMemoryEvents inner)
+        public WithoutPublishingTypes(IEnumerable<Type> excludedTypes, IEventHandler inner)
         {
             _excludedTypes = new HashSet<Type>(excludedTypes);
             _inner = inner;
